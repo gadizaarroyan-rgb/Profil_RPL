@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profil Pelajar Dan Sekolah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel ="stylesheet" href="profil.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body data-bs-spy = "scroll" data-bs-target = "#nav-utama">
+<nav class="navbar navbar-expand-lg navbar-custom" style="background-color : #8ed2ff">
+  <div class="container-fluid">
+    <b><a class ="navbar-brand" href="#profil">PROFIL</a></b>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang Saya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jurusan">Jurusan</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#denah">Denah</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="beranda" class="vh-90 p-5">
+  <h2>Beranda</h2>
+  <p>Selamat datang di website profil saya</p>
+<div class="card" style="width: 17rem;">
+  <img src="gadis.jpg" class="card-img-top" alt="Foto Gadis">
+  <div class="card-body" style="background-color: #8ed2ff">
+    <h5 class="card-title">Halloo!!</h5>
+    <p class="card-text">Nama saya Gadiza Firsty Arroyan, Saya dari sekolah SMK Negeri 9 Medan dengan Jurusan Rekayasa Perangkat Lunak</p>
+    <a href="#tentang" class="btn btn-primary">Data Selengkapnya</a>
+  </div>
+</div>
+</section>
+
+<section id="tentang" class="vh-100 p-5">
+  <h2>Tentang Saya</h2>
+  <h5 class="fw-bold">Data diri Saya</h5>
+  <div class="saya">
+    <p>Nama Lengkap : Gadiza Firsty Arroyan</p>
+    <p>Nama Panggilan : Gadis</p>
+    <p>Kelas : XI RPL 4</p>
+    <p>NISN : 0107118039</p>
+    <p>Alamat : Jl. Setia Tirta, Gg. Pertama, Sei Beras Sekata, Kec. Sunggal, Kabupaten Deli Serdang, Sumatera Utara 20351</p>
+    <p>Anak Ke- : 1 (Pertama)</p>
+  </div>
+  <p class="fw-bold"><h6>Keahlian : </h6></p>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    HTML / CSS
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    JAVASCRIPT
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    PHP-MYSQL
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    GIT
+  </label>
+</div>
+</section>
+
+<section id="jurusan" class="vh-90 p-5" style="background-color: #8ed2ff;">
+  <h2>Jurusan</h2>
+  <p>Informasi jurusan Yang Ada Di Sekolah SMK Negeri 9 Medan</p>
+
+<ul class="nav nav-pills justify-content-center mb-4" id="jurusanTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="rpl-tab" data-bs-toggle="tab" href="#rpl" role="tab">RPL</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="tkj-tab" data-bs-toggle="tab" href="#tkj" role="tab">TKJ</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="animasi-tab" data-bs-toggle="tab" href="#animasi" role="tab">Animasi</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pspt-tab" data-bs-toggle="tab" href="#pspt" role="tab">PSPT</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="peksos-tab" data-bs-toggle="tab" href="#peksos" role="tab">Pekerja Sosial</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="dkv-tab" data-bs-toggle="tab" href="#dkv" role="tab">DKV</a>
+  </li>
+</ul>
+
+      <div class="tab-content text-center" id="jurusanTabContent">
+      
+      <div class="tab-pane fade show active" id="rpl" role="tabpanel">
+        <img src="rpl.jpg" class="img-fluid style-logo" alt="Logo RPL" style="max-width: 170px;">
+        <h6 class="mt-3">Visi : Pengembang perangkat lunak kompeten dan kreatif</h6>
+      </div>
+
+      <div class="tab-pane fade" id="tkj" role="tabpanel">
+        <img src="tkj.jpg" class="img-fluid" alt="Logo TKJ" style="max-width: 170px;">
+        <h6 class="mt-3">Visi : Teknisi dan administrator jaringan yang handal</h6>
+      </div>
+
+      <div class="tab-pane fade" id="animasi" role="tabpanel">
+        <img src="animasi.jpg" class="img-fluid" alt="Logo Animasi" style="max-width: 170px;">
+        <h6 class="mt-3">Visi : Animator kreatif dan produktif</h6>
+      </div>
+
+      <div class="tab-pane fade" id="pspt" role="tabpanel">
+        <img src="pspt.jpg" class="img-fluid" alt="Logo PSPT" style="max-width: 160px;">
+        <h6 class="mt-3">Visi : Insan pertelevisian profesional dan beretika</h6>
+      </div>
+      
+      <div class="tab-pane fade" id="peksos" role="tabpanel">
+        <img src="peksos.jpg" class="img-fluid" alt="Logo Peksos" style="max-width: 160px;">
+        <h6 class="mt-3">Visi : Tenaga sosial profesional yang peduli dan berempati</h6>
+        </div>
+        
+        <div class="tab-pane fade" id="dkv" role="tabpanel">
+        <img src="dkv.jpg" class="img-fluid" alt="Logo DKV" style="max-width: 170px;">
+        <h6 class="mt-3">Visi : Desainer visual kreatif untuk industri kreatif</h6>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+
+<section id="denah" class="my-5">
+  <h2 class="text-center mb-3">Denah Lokasi</h2>
+  
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+        <iframe 
+          src="https://maps.google.com/maps?q=Jl.%20Patriot%20No.%2020,%20Sunggal&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <div class="text-center">
+      <a href="https://maps.app.goo.gl/yANYfw8LT4sovS3fA" target="_blank" class="btn btn-primary">
+        Buka Rute di Google Maps
+      </a>
+    </div>
+  </div>
+<div class="ratio ratio-16x9">
+</div>
+</section>
+
+<footer id="kontak" class="footer-custom text-center py-4">
+  <div class="container d-flex justify-content-center">
+    
+    <div class="card p-4 shadow-sm border-0" style="max-width: 500px; width: 100%; border-radius: 15px; background-color: #8ed2ff">
+    <div class="card-body">
+        <h5 class="card-title fw-bold mb-3"></h5>
+        
+    <div class="social-links d-flex flex-column gap-3 align-items-start text-start">
+        <a href="https://www.instagram.com/smkn9medan?stkn=MWY1ODV5YTN3ODdueg==" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-instagram fs-4 me-2 text-danger"></i>SMK NEGERI 9 MEDAN
+        </a>
+        <a href="https://wa.me/6281412272129" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-whatsapp fs-4 me-2 text-success"></i> My Whatsapp
+        </a>
+        <a href="mailto:gadizafirsty@gmail.com" class="text-decoration-none text-dark">
+          <i class="bi bi-envelope-fill fs-4 me-2 text-primary"></i>MY Email</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+  
+</body>
+</html>
